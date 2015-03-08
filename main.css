@@ -1,0 +1,57 @@
+/* stand back, I'm designing! */
+body {
+  font-size: 1.5rem;
+  font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
+  text-align: center;
+}
+
+h2 {
+  line-height: 1.2;
+  margin: 1em 0 0.5em;
+}
+
+.kida-said-i-need-a-wrapper {
+  width: 600px;
+  margin: 2em auto;
+}
+
+@-webkit-keyframes rainbow-in-the-dark {
+  0% {color: #FFCB30;}
+  5% {color: #BE7121;}
+  10% {color: #DC8D35;}
+  15% {color: #EC8027;}
+  20% {color: #FF7035;}
+  25% {color: #F45F55;}
+  30% {color: #C83733;}
+  35% {color: #DD3A6A;}
+  40% {color: #C1325C;}
+  45% {color: #1B2FA6;}
+  50% {color: #38819E;}
+  55% {color: #3A659D;}
+  60% {color: #1C3E6D;}
+  65% {color: #264056;}
+  70% {color: #275B43;}
+  75% {color: #4D9071;}
+  80% {color: #4A7D51;}
+  85% {color: #54515E;}
+  90% {color: #814353;}
+  95% {color: #713B4F;}
+  100% {color: brown;}
+}
+
+i {
+  color: red;
+  -webkit-animation: rainbow-in-the-dark 10s infinite alternate;
+}
+
+i.ronnie {
+  -webkit-animation-delay: 0s;
+}
+
+i.james {
+  -webkit-animation-delay: 2s;
+}
+
+i.dio {
+  -webkit-animation-delay: 4s;
+}
